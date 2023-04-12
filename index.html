@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>To Do App JavaScript</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+<div id="mainpage">
+    <div class="main">
+        <span id="task">Task</span><span id="list"> List</span>
+    </div>
+    <div class="addbutton">
+        <button id="plus" onclick="showAddItemPopup()">+</button><span id="item">Add Item</span>
+    </div>
+</div>
+<div id="popup">
+        <div class="adlist">
+        <label for="input-text">Add New List</label><br>
+        <input type="text"  placeholder="Add New List" id="input-text" />
+        </div >
+        <div class="button">
+        <button id="btn1" onclick="handleItemCardPopup()"> Add</button>
+        <button id="btn2" onclick="closeItemPopup()">Close</button>
+        </div>
+</div>
+<div id="card-container"></div>
+<div id="popup2">
+    <div class="adlist">
+    <label for="card-input-text">Add New Item</label><br>
+    <input type="text"  placeholder="Add New Item" id="card-input-text" />
+    </div >
+    <div class="button">
+    <button id="cardbtn1" onclick="addContentToCard()"> Add</button>
+    <button id="cardbtn2" onclick="removeAddContentToCardPopup()">Close</button>
+    </div>
+</div>
+
+<script src="./scipt.js"></script>
+</body>
+</html>

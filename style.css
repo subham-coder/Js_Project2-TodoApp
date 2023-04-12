@@ -1,0 +1,187 @@
+body {
+    background-color: black;
+}
+ 
+.main {
+    font-size: xx-large;
+    margin-top: 70px;
+    margin-left: 100px;
+}
+#task {
+    color: orange;
+    font-weight: bold;
+    
+}
+#list {
+    color:white;
+}
+
+#plus {
+    color: white;
+    background-color: blue;
+    width : 40px;
+    height:40px;
+    border-radius: 50%;
+    /* text-align: center; */
+    font-size: xx-large;
+    font-weight: bold;
+    border:none;
+    
+}
+
+#item {
+    color:white;
+    font-size: x-large;
+    font-weight: bold;
+    margin-left: 20px;
+
+}
+
+.addbutton {
+    margin-left: 75%;
+    margin-top: -40px;
+    
+}
+#popup {
+    background-color: white;
+    width:350px;
+    height:150px;
+    border-radius: 5px;
+    margin-left: 38%;
+    margin-top: 150px;
+    display:none;
+    text-align: center;
+    padding-top: 30px;
+    z-index: 2;
+    border: 2px solid red;
+    position: absolute;
+    
+}
+
+#input-text {
+    border: 1px solid red;
+    width:250px;
+    height:30px;
+    border-radius: 5px;
+    margin-top: 10px;
+    text-align: center;
+    box-shadow: 0px 0px 2px red;
+    
+}
+
+.button {
+  margin-top: 20px;
+ 
+ 
+}
+#btn1 {
+    background-color: red;
+    color:white;
+    width:70px;
+    height:35px;
+    border:none;
+    border-radius: 20px; 
+    font-size: large;
+    margin-right: 10px;
+
+    
+}
+#btn2 {
+    background-color: red;
+    color:white;
+    width:70px;
+    height:35px;
+    border:none;
+    border-radius: 20px; 
+    font-size: large;
+  
+}
+.adlist {
+    font-size: large;
+    color:red;
+    font-weight: bold;
+}
+#popup2 {
+    background-color: white;
+    width:350px;
+    height:150px;
+    border-radius: 5px;
+    margin-left: 38%;
+    margin-top: -210px;
+    display:none;
+    text-align: center;
+    padding-top: 30px;
+    position:absolute;
+}
+#card-input-text {
+    border: 1px solid green;
+    width:250px;
+    height:30px;
+    border-radius: 5px;
+    margin-top: 10px;
+    text-align: center;
+    box-shadow: 0px 0px 3px green;
+}
+#cardbtn1 {
+    background-color: green;
+    color:white;
+    width:70px;
+    height:35px;
+    border:none;
+    border-radius: 20px; 
+    font-size: large;
+    margin-right: 10px;
+}
+#cardbtn2 {
+    background-color: green;
+    color:white;
+    width:70px;
+    height:35px;
+    border:none;
+    border-radius: 20px; 
+    font-size: large;
+   
+}
+#card-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:space-evenly;
+}
+.card {
+    border: 2px solid red;
+    background-color: white;
+    width:250px;
+    height:300px;
+    margin:30px;
+    border-radius: 10px;
+}
+.card-title {
+    text-align: center;
+    font-size: large;
+}
+.container2 {
+    /* position: relative; */
+    padding-top: 170px;
+    padding-left: 150px ;
+    
+}
+.delete {
+    width:35px;
+    height:35px;
+    border:none;
+    border-radius: 50%;
+    background-color: rgb(240, 85, 85);
+    margin-right: 5px;
+    color: white;
+    font-size: x-large;
+}
+.add {
+   
+    width:35px;
+    height:35px;
+    border:none;
+    border-radius: 50%;
+    background-color: blue;   
+    color:white;
+    font-size: x-large;
+}
